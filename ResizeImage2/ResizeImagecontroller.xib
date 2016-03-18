@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="9531" systemVersion="15B42" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="9531"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="ResizeImagecontroller">
+            <connections>
+                <outlet property="check0" destination="S1b-Tk-MqR" id="bys-8g-Pbc"/>
+                <outlet property="check1" destination="3Hb-Sp-pke" id="Vn8-nU-KeU"/>
+                <outlet property="check2" destination="bMr-Sw-wzV" id="Xnn-2x-Am5"/>
+                <outlet property="dragImage" destination="0U7-O5-9MD" id="KQq-cM-zii"/>
+                <outlet property="heightTf" destination="79q-BF-vP7" id="x1n-8i-sul"/>
+                <outlet property="view" destination="Hz6-mo-xeY" id="0bl-1N-x8E"/>
+                <outlet property="widthTf" destination="tiA-r8-NDw" id="9Ef-Lb-e9K"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView id="Hz6-mo-xeY">
+            <rect key="frame" x="0.0" y="0.0" width="480" height="272"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tiA-r8-NDw">
+                    <rect key="frame" x="29" y="169" width="96" height="22"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="3WI-CZ-x3R">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="79q-BF-vP7">
+                    <rect key="frame" x="29" y="137" width="96" height="22"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="fP3-TO-8uX">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6hB-Zy-JNb">
+                    <rect key="frame" x="4" y="169" width="28" height="22"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" borderStyle="bezel" title="宽" id="bxR-Ve-ZRZ">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2qp-Kz-hvw">
+                    <rect key="frame" x="4" y="137" width="28" height="22"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" borderStyle="bezel" title="高" id="c4I-zi-umG">
+                        <font key="font" size="13" name=".PingFangSC-Regular"/>
+                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tX9-IG-ITq">
+                    <rect key="frame" x="29" y="61" width="96" height="32"/>
+                    <buttonCell key="cell" type="push" title="确定" bezelStyle="rounded" alignment="center" lineBreakMode="truncatingTail" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="kiF-Pb-mo4">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="buttonClicked:" target="-2" id="LuL-rX-ML0"/>
+                    </connections>
+                </button>
+                <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3Hb-Sp-pke">
+                    <rect key="frame" x="349" y="133" width="113" height="31"/>
+                    <buttonCell key="cell" type="check" title="40pt @2&amp;@3" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="CDc-Ug-Tmz">
+                        <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                </button>
+                <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bMr-Sw-wzV">
+                    <rect key="frame" x="349" y="100" width="113" height="31"/>
+                    <buttonCell key="cell" type="check" title="60pt @2&amp;@3" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="UFA-AB-VRW">
+                        <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                </button>
+                <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tGZ-Jv-u7Q">
+                    <rect key="frame" x="358" y="61" width="95" height="32"/>
+                    <buttonCell key="cell" type="push" title="确定" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="ZM7-fM-dsb">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="confirClick:" target="-2" id="PGq-QK-Kcn"/>
+                    </connections>
+                </button>
+                <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="S1b-Tk-MqR">
+                    <rect key="frame" x="349" y="167" width="113" height="31"/>
+                    <buttonCell key="cell" type="check" title="29pt @2&amp;@3" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="x3I-Kd-OmI">
+                        <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                </button>
+                <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nXe-Vm-Pfg">
+                    <rect key="frame" x="0.0" y="222" width="480" height="50"/>
+                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" borderStyle="bezel" alignment="center" title="方式一:拖拽图片到中心区域，输入宽和高，点击确定即可得到缩放后的图片          方式二:拖入图片，勾选尺寸，点击确定即可" id="89F-CO-Wjk">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0U7-O5-9MD" customClass="DragImageView">
+                    <rect key="frame" x="163" y="80" width="154" height="112"/>
+                    <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="DropImageHere" id="cmX-Wq-V5u"/>
+                </imageView>
+            </subviews>
+            <point key="canvasLocation" x="289" y="348"/>
+        </customView>
+    </objects>
+    <resources>
+        <image name="DropImageHere" width="92.160003662109375" height="92.160003662109375"/>
+    </resources>
+</document>

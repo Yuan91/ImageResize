@@ -1,0 +1,323 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		92473BA21C85738100E57E51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 92473BA11C85738100E57E51 /* AppDelegate.m */; };
+		92473BA51C85738100E57E51 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 92473BA41C85738100E57E51 /* main.m */; };
+		92473BA71C85738100E57E51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92473BA61C85738100E57E51 /* Assets.xcassets */; };
+		92473BAA1C85738100E57E51 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92473BA81C85738100E57E51 /* MainMenu.xib */; };
+		92473BB21C85740900E57E51 /* DropImageHere.png in Resources */ = {isa = PBXBuildFile; fileRef = 92473BB11C85740900E57E51 /* DropImageHere.png */; };
+		92473BB51C8574B200E57E51 /* DragImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 92473BB41C8574B200E57E51 /* DragImageView.m */; };
+		92473BB91C8578F100E57E51 /* NSImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = 92473BB81C8578F100E57E51 /* NSImage+Resize.m */; };
+		92473BC01C857F1800E57E51 /* ResizeImagecontroller.m in Sources */ = {isa = PBXBuildFile; fileRef = 92473BBE1C857F1800E57E51 /* ResizeImagecontroller.m */; };
+		92473BC11C857F1800E57E51 /* ResizeImagecontroller.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92473BBF1C857F1800E57E51 /* ResizeImagecontroller.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		92473B9D1C85738100E57E51 /* ResizeImage2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ResizeImage2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		92473BA01C85738100E57E51 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		92473BA11C85738100E57E51 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		92473BA41C85738100E57E51 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		92473BA61C85738100E57E51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		92473BA91C85738100E57E51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		92473BAB1C85738100E57E51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92473BB11C85740900E57E51 /* DropImageHere.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DropImageHere.png; sourceTree = "<group>"; };
+		92473BB31C8574B200E57E51 /* DragImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DragImageView.h; sourceTree = "<group>"; };
+		92473BB41C8574B200E57E51 /* DragImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DragImageView.m; sourceTree = "<group>"; };
+		92473BB71C8578F100E57E51 /* NSImage+Resize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSImage+Resize.h"; sourceTree = "<group>"; };
+		92473BB81C8578F100E57E51 /* NSImage+Resize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSImage+Resize.m"; sourceTree = "<group>"; };
+		92473BBD1C857F1800E57E51 /* ResizeImagecontroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResizeImagecontroller.h; sourceTree = "<group>"; };
+		92473BBE1C857F1800E57E51 /* ResizeImagecontroller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResizeImagecontroller.m; sourceTree = "<group>"; };
+		92473BBF1C857F1800E57E51 /* ResizeImagecontroller.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ResizeImagecontroller.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		92473B9A1C85738100E57E51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		92473B941C85738100E57E51 = {
+			isa = PBXGroup;
+			children = (
+				92473B9F1C85738100E57E51 /* ResizeImage2 */,
+				92473B9E1C85738100E57E51 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		92473B9E1C85738100E57E51 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92473B9D1C85738100E57E51 /* ResizeImage2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		92473B9F1C85738100E57E51 /* ResizeImage2 */ = {
+			isa = PBXGroup;
+			children = (
+				92473BB61C8578DE00E57E51 /* NSImage+Resize */,
+				92473BA01C85738100E57E51 /* AppDelegate.h */,
+				92473BA11C85738100E57E51 /* AppDelegate.m */,
+				92473BBD1C857F1800E57E51 /* ResizeImagecontroller.h */,
+				92473BBE1C857F1800E57E51 /* ResizeImagecontroller.m */,
+				92473BBF1C857F1800E57E51 /* ResizeImagecontroller.xib */,
+				92473BB31C8574B200E57E51 /* DragImageView.h */,
+				92473BB41C8574B200E57E51 /* DragImageView.m */,
+				92473BA31C85738100E57E51 /* Supporting Files */,
+			);
+			path = ResizeImage2;
+			sourceTree = "<group>";
+		};
+		92473BA31C85738100E57E51 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				92473BB11C85740900E57E51 /* DropImageHere.png */,
+				92473BAB1C85738100E57E51 /* Info.plist */,
+				92473BA41C85738100E57E51 /* main.m */,
+				92473BA61C85738100E57E51 /* Assets.xcassets */,
+				92473BA81C85738100E57E51 /* MainMenu.xib */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		92473BB61C8578DE00E57E51 /* NSImage+Resize */ = {
+			isa = PBXGroup;
+			children = (
+				92473BB71C8578F100E57E51 /* NSImage+Resize.h */,
+				92473BB81C8578F100E57E51 /* NSImage+Resize.m */,
+			);
+			name = "NSImage+Resize";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		92473B9C1C85738100E57E51 /* ResizeImage2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92473BAE1C85738100E57E51 /* Build configuration list for PBXNativeTarget "ResizeImage2" */;
+			buildPhases = (
+				92473B991C85738100E57E51 /* Sources */,
+				92473B9A1C85738100E57E51 /* Frameworks */,
+				92473B9B1C85738100E57E51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ResizeImage2;
+			productName = ResizeImage2;
+			productReference = 92473B9D1C85738100E57E51 /* ResizeImage2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		92473B951C85738100E57E51 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Mr_du;
+				TargetAttributes = {
+					92473B9C1C85738100E57E51 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 92473B981C85738100E57E51 /* Build configuration list for PBXProject "ResizeImage2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 92473B941C85738100E57E51;
+			productRefGroup = 92473B9E1C85738100E57E51 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92473B9C1C85738100E57E51 /* ResizeImage2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		92473B9B1C85738100E57E51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92473BA71C85738100E57E51 /* Assets.xcassets in Resources */,
+				92473BB21C85740900E57E51 /* DropImageHere.png in Resources */,
+				92473BAA1C85738100E57E51 /* MainMenu.xib in Resources */,
+				92473BC11C857F1800E57E51 /* ResizeImagecontroller.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92473B991C85738100E57E51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92473BB91C8578F100E57E51 /* NSImage+Resize.m in Sources */,
+				92473BA51C85738100E57E51 /* main.m in Sources */,
+				92473BC01C857F1800E57E51 /* ResizeImagecontroller.m in Sources */,
+				92473BB51C8574B200E57E51 /* DragImageView.m in Sources */,
+				92473BA21C85738100E57E51 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		92473BA81C85738100E57E51 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92473BA91C85738100E57E51 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		92473BAC1C85738100E57E51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		92473BAD1C85738100E57E51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		92473BAF1C85738100E57E51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ResizeImage2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Jimi.ResizeImage2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		92473BB01C85738100E57E51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ResizeImage2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Jimi.ResizeImage2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		92473B981C85738100E57E51 /* Build configuration list for PBXProject "ResizeImage2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92473BAC1C85738100E57E51 /* Debug */,
+				92473BAD1C85738100E57E51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92473BAE1C85738100E57E51 /* Build configuration list for PBXNativeTarget "ResizeImage2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92473BAF1C85738100E57E51 /* Debug */,
+				92473BB01C85738100E57E51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 92473B951C85738100E57E51 /* Project object */;
+}
